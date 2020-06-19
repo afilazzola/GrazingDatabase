@@ -29,19 +29,19 @@ library(ggthemes)
 source("scripts//figureFormat.r")
 
 ## Load data on study information
-studyData <- read.csv("data//StudyData.csv")
+studyData <- read.csv("data//StudyData.csv", stringsAsFactors = F)
 
 ## load all data on grazing and merge with simplified datasets
-data <- read.csv("data//grazingData.csv")
-est <- read.csv("data//simpleCategories//estimateCategories.csv")
-graze <- read.csv("data//simpleCategories//grazingCategories.csv")
-data <- merge(data, est, by="Estimate")
-data <- merge(data, graze, by="grazing.estimate")
+data <- read.csv("data//grazingData.csv", stringsAsFactors = F)
+est <- read.csv("data//simpleCategories//estimateCategories.csv", stringsAsFactors = F)
+graze <- read.csv("data//simpleCategories//grazingCategories.csv", stringsAsFactors = F)
+data <- merge(data, est, by="Estimate", stringsAsFactors = F)
+data <- merge(data, graze, by="grazing.estimate", stringsAsFactors = F)
 
 ```
 
 ### A distribution of where the studies took place
-```{r}
+```{r warning=FALSE, message=FALSE}
 
 require(ggmap)
 require(maps)
@@ -50,14 +50,14 @@ mp <- NULL
 mapWorld <- borders("world", colour="gray50", fill="gray75") # create a layer of borders
 mp <- ggplot() + theme_bw()+  mapWorld
 
-mp <- mp+ geom_point(data=studyData , aes(x=lon, y=lat, color=grazer.status), size=2) + scale_color_manual(values=c("#D55E00", "#E69F00", "#56B4E9")) + ylab("Latitude") + xlab("Longitude")
+mp <- mp+ geom_point(data=studyData , aes(x=lon, y=lat, color=grazer.status), size=2) + scale_color_manual(values=c("#D55E00", "#E69F00", "#56B4E9","grey50")) + ylab("Latitude") + xlab("Longitude")
 mp
 
 ```
 
 
 ### Visualize patterns among studies
-```{r}
+```{r warning=FALSE, message=FALSE}
 ## Replicates
 names(studyData)
 ggplot(studyData, aes(x = as.numeric(n.sites))) + geom_histogram(fill="Grey50") + theme_Publication() + xlab("Number of sites") + ylab("Frequency of studies") + scale_x_continuous(trans =  "log2")
@@ -66,7 +66,7 @@ ggplot(studyData, aes(x = as.numeric(study.duration))) + geom_histogram(fill="Gr
 ```
 
 ### Pattern among Vegetation Classes
-```{r}
+```{r warning=FALSE, message=FALSE}
 ## Split by semi-colon
 unnestVeg <- studyData %>%   unnest(veg.class = strsplit(veg.class, ";"))
 ## Summarize by each class
@@ -77,7 +77,7 @@ ggplot(VegClass, aes(x=veg.class, y=n)) + geom_bar(stat="identity") + theme_Publ
 ```
 
 ### Most common grazers
-```{r}
+```{r warning=FALSE, message=FALSE}
 ## Split by semi-colon
 unnestGraze <- studyData %>%   unnest(herbivores = strsplit(herbivores, ";"))
 ## Summarize by each class
@@ -91,7 +91,7 @@ ggplot(topherb, aes(x=reorder(herbivores, -n), y=n)) + geom_bar(stat="identity")
 ```
 
 ### Summary statistics of other categories
-```{r}
+```{r warning=FALSE, message=FALSE}
 studyData %>% group_by(openvsfenced) %>% summarize(n=length(uniqueID))
 studyData %>% group_by(tilledvsleftalone) %>% summarize(n=length(uniqueID))
 studyData %>% group_by(fire) %>% summarize(n=length(uniqueID))
