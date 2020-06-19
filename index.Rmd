@@ -29,3 +29,24 @@ studyData <- read.csv("data//StudyData.csv")
 
 ```
 
+### A distribution of where the studies took place
+```{r}
+
+require(ggmap)
+require(maps)
+###  Start with base map of world
+mp <- NULL
+mapWorld <- borders("world", colour="gray50", fill="gray75") # create a layer of borders
+mp <- ggplot() + theme_bw()+  mapWorld
+
+mp <- mp+ geom_point(data=studyData , aes(x=lon, y=lat, color=grazer.status), size=2) + scale_color_manual(values=c("#D55E00", "#E69F00", "#56B4E9"))
+mp
+
+```
+
+
+### Visualize patterns among studies
+```{r}
+
+
+```
