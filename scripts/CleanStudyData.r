@@ -23,3 +23,7 @@ unique(studyData$fertilization)
 ## Correct inverse categories categorization
 studyData[studyData$fertilization == "no;yes", "fertilization"] <- "yes;no"
 studyData[studyData$publicvsprivate == "private;public", "publicvsprivate"] <- "public;private"
+
+## Add a column whether data is present within this database
+studyData <- merge(studyData, studyList, by="uniqueID", all.y=T)
+

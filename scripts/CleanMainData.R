@@ -16,3 +16,9 @@ data[data$Stat == "Mean", "Stat"] <- "mean"
 data[data$Stat %in% c("Count","N"), "Stat"] <- "count"
 data[data$Stat %in% c("se","standard error","Standard error")  , "Stat"] <- "SE"
 data[data$Stat == "sd", "Stat"] <- "StDev"
+
+## Correct taxa
+data[data$Higher.Taxa=="Plant","Higher.Taxa"] <- "Plants"
+
+## Create a data available column in the study data
+studyList <- data.frame(uniqueID = unique(data$uniqueID), hasData="yes")
