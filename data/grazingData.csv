@@ -15554,40 +15554,32 @@ uniqueID,Higher.Taxa,Taxa,Detailed.Taxa,Genus,Species,siteID,year,grazing.compar
 2965,Invertebrate,Arthropoda,,Poecilus,versicolor,Grazed4,2009,ordinal/binary,grazed,Cow Unit/ha/day,-306.5,% abundance,,count,0
 2965,Invertebrate,Arthropoda,,Pseudoophonus,rufipes,Grazed4,2009,ordinal/binary,grazed,Cow Unit/ha/day,-75.02,% abundance,,count,6
 2965,Invertebrate,Arthropoda,,Pterostichus,melarius,Grazed4,2009,ordinal/binary,grazed,Cow Unit/ha/day,-126.46,% abundance,,count,1
-2989,,Aves,,Clay-coloured sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,30
-2989,,Aves,,Clay-coloured sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,1.1
-2989,,Aves,,Clay-coloured sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,11
-2989,,Aves,,Clay-coloured sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,0.6
-2989,,Aves,,Total ground nesters,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,65
-2989,,Aves,,Total ground nesters,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,2.3
-2989,,Aves,,Total ground nesters,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,45
-2989,,Aves,,Total ground nesters,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,2.3
-2989,,Aves,,Savannah sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,25
-2989,,Aves,,Savannah sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,0.9
-2989,,Aves,,Savannah sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,17
-2989,,Aves,,Savannah sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,0.9
-2989,,Aves,,Vesper sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,16
-2989,,Aves,,Vesper sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,0.6
-2989,,Aves,,Vesper sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,16
-2989,,Aves,,Vesper sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,0.8
-2989,,Aves,,Western meadowlark,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,18
-2989,,Aves,,Western meadowlark,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,0.6
-2989,,Aves,,Western meadowlark,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,7
-2989,,Aves,,Western meadowlark,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,0.4
-2989,,Aves,,Le Conte's sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,3
-2989,,Aves,,Le Conte's sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,4
-2989,,Aves,,Bobolink,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,0
-2989,,Aves,,Bobolink,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,1
-2989,,Aves,,UNKN sparrows,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,4
-2989,,Aves,,UNKN sparrows,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,0
-2989,Vertebrate,Aves,,Pooecetes,gramineus,grazed,2006-2008,ordinal/binary,grazed,1.2,AUM/ha,daily nest survival,26,SE,0.013
-2989,Vertebrate,Aves,,Pooecetes,gramineus,grazed,2006-2008,ordinal/binary,grazed,1.2,AUM/ha,daily nest survival,26,mean,0.956
-2989,Vertebrate,Aves,,Pooecetes,gramineus,grazed,2006-2008,ordinal/binary,grazed,1.2,AUM/ha,nestling condition,24,mean,-0.0328
-2989,Vertebrate,Aves,,Pooecetes,gramineus,grazed,2006-2008,ordinal/binary,grazed,1.2,AUM/ha,nestling condition,24,SE,0.98791
-2989,Vertebrate,Aves,,Pooecetes,gramineus,ungrazed,2006-2008,ordinal/binary,ungrazed,0,AUM/ha,daily nest survival,18,SE,0.0126
-2989,Vertebrate,Aves,,Pooecetes,gramineus,ungrazed,2006-2008,ordinal/binary,ungrazed,0,AUM/ha,daily nest survival,18,mean,0.98
-2989,Vertebrate,Aves,,Pooecetes,gramineus,ungrazed,2006-2008,ordinal/binary,ungrazed,0,AUM/ha,nestling condition,24,mean,0.1496
-2989,Vertebrate,Aves,,Pooecetes,gramineus,ungrazed,2006-2008,ordinal/binary,ungrazed,0,AUM/ha,nestling condition,24,SE,0.8783
+2992,Vertebrate,Aves,,Clay-coloured sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,30
+2992,Vertebrate,Aves,,Clay-coloured sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,1.1
+2992,Vertebrate,Aves,,Clay-coloured sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,11
+2992,Vertebrate,Aves,,Clay-coloured sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,0.6
+2992,Vertebrate,Aves,,Total ground nesters,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,65
+2992,Vertebrate,Aves,,Total ground nesters,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,2.3
+2992,Vertebrate,Aves,,Total ground nesters,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,45
+2992,Vertebrate,Aves,,Total ground nesters,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,2.3
+2992,Vertebrate,Aves,,Savannah sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,25
+2992,Vertebrate,Aves,,Savannah sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,0.9
+2992,Vertebrate,Aves,,Savannah sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,17
+2992,Vertebrate,Aves,,Savannah sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,0.9
+2992,Vertebrate,Aves,,Vesper sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,16
+2992,Vertebrate,Aves,,Vesper sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,0.6
+2992,Vertebrate,Aves,,Vesper sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,16
+2992,Vertebrate,Aves,,Vesper sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,0.8
+2992,Vertebrate,Aves,,Western meadowlark,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,18
+2992,Vertebrate,Aves,,Western meadowlark,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Density (#/9ha),9,mean,0.6
+2992,Vertebrate,Aves,,Western meadowlark,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,7
+2992,Vertebrate,Aves,,Western meadowlark,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Density (#/9ha),6,mean,0.4
+2992,Vertebrate,Aves,,Le Conte's sparrow,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,3
+2992,Vertebrate,Aves,,Le Conte's sparrow,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,4
+2992,Vertebrate,Aves,,Bobolink,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,0
+2992,Vertebrate,Aves,,Bobolink,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,1
+2992,Vertebrate,Aves,,UNKN sparrows,,twice-over,2012,gradient,gradient,stocking rate (AUM/acre),0.878,Count ,9,mean,4
+2992,Vertebrate,Aves,,UNKN sparrows,,once-over,2012,gradient,gradient,stocking rate (AUM/acre),0.757,Count ,6,mean,0
 3027,Invertebrate,Arthropoda,Bee,,,,2014,ordinal/binary,ungrazed,AUM,2.4,abundance,37,mean,133.8
 3027,Invertebrate,Arthropoda,Bee,,,,2014,ordinal/binary,ungrazed,AUM,2.4,abundance,37,SE,10.08
 3027,Invertebrate,Arthropoda,Bee,,,,2014,ordinal/binary,grazed,AUM,2.4,abundance,37,mean,63
