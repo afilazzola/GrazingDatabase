@@ -1,0 +1,31 @@
+---
+title: "A global database on animal biodiversity measured in different grazing treatments"
+author: "Alessandro Filazzola & Tianna Barber-Cross"
+date: "6/19/2020"
+output:
+  html_document:
+    theme: flatly
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+<br>  
+
+
+![](./grazing.jpg)
+
+
+### Load Libraries and Data
+```{r}
+## Load libraries
+library(tidyverse)
+
+## Load data
+studyData <- read.csv("data//StudyData.csv")
+
+```
+
