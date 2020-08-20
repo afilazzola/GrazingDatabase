@@ -43,6 +43,14 @@ data <- merge(data, graze, by="grazing.estimate", stringsAsFactors = F)
 ### A distribution of where the studies took place
 ```{r warning=FALSE, message=FALSE}
 
+## Remove sites without lat lon
+gps <- studyData %>% filter(lat != "")
+
+### Split multiple GPS coordinates for the same site
+gpsSplit <- gps %>%   transform(lon = strsplit(lon, ";")) %>%   transform(lat = strsplit(lat, ";"))  %>%   unnest(lon, lat) %>% ## unnest lat/lon 
+  mutate(lat = as.numeric(lat), lon=as.numeric(lon))
+
+
 require(ggmap)
 require(maps)
 ###  Start with base map of world
@@ -50,7 +58,7 @@ mp <- NULL
 mapWorld <- borders("world", colour="gray50", fill="gray75") # create a layer of borders
 mp <- ggplot() + theme_bw()+  mapWorld
 
-mp <- mp+ geom_point(data=studyData , aes(x=lon, y=lat, color=grazer.status), size=2) + scale_color_manual(values=c("#D55E00", "#E69F00", "#56B4E9","grey50")) + ylab("Latitude") + xlab("Longitude")
+mp <- mp+ geom_point(data=gpsSplit %>%  filter(grazer.status != "") , aes(x=lon, y=lat, color=grazer.status), size=2) + scale_color_manual(values=c("#D55E00", "#E69F00", "#56B4E9","grey50")) + ylab("Latitude") + xlab("Longitude")
 mp
 
 ```
