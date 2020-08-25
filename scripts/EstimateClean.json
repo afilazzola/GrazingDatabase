@@ -1,0 +1,202 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Estimate",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "% cover grass",
+          "% grass cover",
+          "Grass cover",
+          "Grass cover (%)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grass cover (%)"
+      },
+      {
+        "from": [
+          "Vegetation height (cm)",
+          "vegetation height, cm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vegetation height (cm)"
+      },
+      {
+        "from": [
+          "Count",
+          "Count "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Count"
+      },
+      {
+        "from": [
+          "%forb cover",
+          "Forb cover"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Forb cover (%)"
+      },
+      {
+        "from": [
+          "biomass (g/m2)",
+          "biomass (g/m^2)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "biomass (g/m2)"
+      },
+      {
+        "from": [
+          "Abundance grasshopper ",
+          "grasshopper abundance"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "abundance"
+      },
+      {
+        "from": [
+          "Canopy %Cover",
+          "canopy cover"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Canopy cover (%)"
+      },
+      {
+        "from": [
+          "biomass (g / m2)",
+          "biomass (g /m2)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "biomass (g/m2)"
+      }
+    ],
+    "description": "Mass edit cells in column Estimate"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Est.Simplified",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Microbial biomass C content",
+          "microbial biomass C content"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Microbial biomass C content"
+      }
+    ],
+    "description": "Mass edit cells in column Est.Simplified"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Estimate",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "individual nesting",
+          "individual resting"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "individual nesting"
+      },
+      {
+        "from": [
+          "letter cover",
+          "litter cover"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "litter cover"
+      },
+      {
+        "from": [
+          "Frequency of Occurence",
+          "Frequency of occurrence"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Frequency of occurrence"
+      },
+      {
+        "from": [
+          "eenness",
+          "evenness"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "evenness"
+      },
+      {
+        "from": [
+          "Shannon Diversity",
+          "shannon.diversity"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shannon Diversity"
+      },
+      {
+        "from": [
+          "Number",
+          "numbers"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Number"
+      },
+      {
+        "from": [
+          "bare ground",
+          "bareground"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bare ground"
+      },
+      {
+        "from": [
+          "percent cover",
+          "percent.cover"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "percent cover"
+      },
+      {
+        "from": [
+          "Species Richness/plot",
+          "Species richness/pot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Species Richness/plot"
+      }
+    ],
+    "description": "Mass edit cells in column Estimate"
+  }
+]

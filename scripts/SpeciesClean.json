@@ -1,0 +1,179 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Genus",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Myodes",
+          "Myodes "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Myodes"
+      },
+      {
+        "from": [
+          "tringa",
+          "Tringa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tringa"
+      },
+      {
+        "from": [
+          "Xysticus",
+          "Xysticus "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Xysticus"
+      },
+      {
+        "from": [
+          "Sturnella ",
+          "Sturnella"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sturnella"
+      },
+      {
+        "from": [
+          "Lucasium",
+          "Lucasium  "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lucasium"
+      },
+      {
+        "from": [
+          "Euchorthippus ",
+          "Euchorthippus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Euchorthippus"
+      },
+      {
+        "from": [
+          "Reithrodontomys",
+          "Reithrodontomys "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Reithrodontomys"
+      },
+      {
+        "from": [
+          "Neotoma",
+          "Neotoma "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Neotoma"
+      },
+      {
+        "from": [
+          "Emberiza",
+          "Emberiza."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Emberiza"
+      },
+      {
+        "from": [
+          "Dipodomys",
+          "Dipodomys "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dipodomys"
+      },
+      {
+        "from": [
+          "Diplodactylus",
+          "Diplodactylus "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Diplodactylus"
+      },
+      {
+        "from": [
+          "Poaceae",
+          "poaceae"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Poaceae"
+      },
+      {
+        "from": [
+          "Eremiascincus",
+          "Eremiascincus "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Eremiascincus"
+      },
+      {
+        "from": [
+          "Pooecetes ",
+          "Pooecetes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pooecetes"
+      }
+    ],
+    "description": "Mass edit cells in column Genus"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Species",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "spp.",
+          "Spp."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "spp."
+      },
+      {
+        "from": [
+          "vittatus",
+          "vittatus "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vittatus"
+      },
+      {
+        "from": [
+          "richardsonii",
+          "richardsonii "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "richardsonii"
+      }
+    ],
+    "description": "Mass edit cells in column Species"
+  }
+]
