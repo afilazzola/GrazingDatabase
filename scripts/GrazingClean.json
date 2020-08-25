@@ -1,0 +1,50 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "grazing.estimate",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "indiv. km2",
+          "indiv. km3"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "indiv. km2"
+      },
+      {
+        "from": [
+          "animal/ha",
+          "animals/ha"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "animal/ha"
+      },
+      {
+        "from": [
+          "Animal unit months",
+          "animal unit month"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AUM"
+      },
+      {
+        "from": [
+          "animal per ha",
+          "animals per ha"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "animals per ha"
+      }
+    ],
+    "description": "Mass edit cells in column grazing.estimate"
+  }
+]

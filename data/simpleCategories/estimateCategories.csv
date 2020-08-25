@@ -28,9 +28,6 @@ Plant canopy cover >=20,percent.cover,abundance
 # Macroscelides probiscideus,abundance,abundance
 # Suncus varilla,abundance,abundance
 Total small mammal individuals,abundance,abundance
-Species richness,richness,diversity
-Diversity (Shannon's H),diversity,diversity
-richness,richness,diversity
 abundance,abundance,abundance
 Abundance butterflies,abundance,abundance
 Density (Log count individuals/m?),density,abundance
@@ -42,11 +39,7 @@ Anecic earthworm biomass (g/m?),abundance,abundance
 microbial carbon gram/gram soil,Microbial biomass C content,abundance
 metabolic quotient (qCO2 / ug CO2 - C mg / Microbial BCh),metabolic quotient,abundance
 Cmicrobial:Corganic (%),carbon ratio,abundance
-VOR (Visual Obstruction Reading),omit,omit
-Vegetation structure (robel estimate),omit,omit
 Abundance (#/trapped/hour),abundance,abundance
-Species richness All Bees,richness,diversity
-Shannon diversity (H),diversity,diversity
 Number of spiders,abundance,abundance
 Vegetation height (cm),height,abundance
 Vegetation density (cm),density,abundance
@@ -74,21 +67,9 @@ Log abundance,abundance,abundance
 Number,abundance,abundance
 Frequency of occurrence,frequency,abundance
 Total insects,abundance,abundance
-Orthoptera individual richness,richness,diversity
-Hemiptera individual richness,richness,diversity
-Coleptera individual richness,richness,diversity
-Diptera individual richness,richness,diversity
-Hymenoptera individual richness,richness,diversity
-Homoptera individual richness,richness,diversity
-Lepidoptera individual richness,richness,diversity
-Mantodea individual richness,richness,diversity
-Neuroptera individual richness,richness,diversity
 abundance,abundance,abundance
-Shannon Diversity,diversity,diversity
 Count,abundance,abundance
 Density (#/9ha),density,abundance
-RedList.species,rare.richness,diversity
-Shannon Diversity,diversity,diversity
 percent cover,percent.cover,abundance
 density,density,abundance
 dung per ha,scat density,abundance
@@ -116,67 +97,42 @@ flower abundance,abundance,abundance
 root abundance,abundance,abundance
 density (no / m2),density,abundance
 biomass (g/m2),abundance,abundance
-diversity,diversity,diversity
-evenness,diversity,diversity
-daily mortality rate,mortality rate,fitness
-daily predation rate,predation rate,fitness
 number of territories,number of territories,abundance
 plant height (cm),height,abundance
 biomass (mg),abundance,abundance
-vegetation height (PCA value),omit,omit
 perch height (cm),height,abundance
 litter size,abundance,abundance
-Percent reproductive individuals,percent reproductive individuals,fitness
 productivity,productivity,abundance
 height (cm),height,abundance
 mean body mass (g),mean body mass,abundance
 number of offspring,number of offspring,abundance
-fledgling survival,survival,fitness
-juvenile survival,survival,fitness
-nest success (%),nest success,fitness
 soil denisty (per 200 m3),density,abundance
 breeding density (pairs per km2),density,abundance
 total cover (%),percent.cover,abundance
-ant seed removal (g/tray/12 hour),seed removal,behavioural
-rodent seed removal (g/tray/12 hour),seed removal,behavioural
 Number,abundance,abundance
 taxa,abundance,abundance
 Biomass(g),abundance,abundance
 spores/g soil,abundance,abundance
-clutch size,clutch size,fitness
-interaction diversity,diversity,diversity
-floral species richness,richness,diversity
 biomass (g/m2),abundance,abundance
 captures/plot/100 trap nights,captured.individuals,abundance
 number caught ,captured.individuals,abundance
 abundance/100 trap days,abundance,abundance
-species rich,richness,diversity
-Species richness/g soil,richness,diversity
 Spore abundance/g soil,abundance,abundance
 capture rate,captured.individuals,abundance
 density/transect,density,abundance
-richness/transect,richness,diversity
 number/10x10cm area,abundance,abundance
 abundance/pitfall trap,abundance,abundance
-Total taxon richness,richness,diversity
 cumulative hare droppings (number/m^2/day),scat density,abundance
-Avg. optical density (OD590),omit,omit
-Species Richness/plot,richness,diversity
 number/ha,density,abundance
 abundance/sample,abundance,abundance
-core area (ha),core area,behavioural
-home range (ha),home range,behavioural
 Abundance/plot,density,abundance
-Species Richness/plot,richness,diversity
 ind./10ha,density,abundance
 adults/1 km transect,density,abundance
 larvae/1 km transect,density,abundance
 nymphs/1 km transect,density,abundance
-daily nest survival,survival,fitness
 birds/km fenceline,abundance,abundance
 Lichen % cover,percent.cover,abundance
 abundance per site,abundance,abundance
-richness per site,richness,diversity
 population density,density,abundance
 percent occurance,abundance,abundance
 visitation frequency (#/5mins),frequency,abundance
@@ -193,85 +149,42 @@ pellet count,scat density,abundance
 counts/rep/hour,abundance,abundance
 captures/100 nights,captured.individuals,abundance
 termite abundance index,abundance,abundance
-Arthropods/m2,omit,omit
-Arthropods/m3,omit,omit
-Arthropods/m4,omit,omit
-Arthropods/m5,omit,omit
-Arthropods/m6,omit,omit
-Arthropods/m7,omit,omit
-Arthropods/m8,omit,omit
-Arthropods/m9,omit,omit
 small mammal abundance/100 trap nights,abundance,abundance
-change in birds/ha from beginning of experiment,omit,omit
 number of ant occupied trees,abundance,abundance
 bird abundance (observations/site),abundance,abundance
-bird species richness,richness,diversity
 numbers/count,abundance,abundance
 mycorrhizal fungal colonization intensity,abundance,abundance
 number of ants captured,abundance,abundance
 Grass cover (%),percent.cover,abundance
 Forb cover (%),percent.cover,abundance
-interval survival,survival,fitness
 burrow density,density,abundance
 individuals/g,density,abundance
-10^9 cells/g,omit,omit
 birds/plot,density,abundance
 % cover bare,percent.cover,abundance
-% cover decreasers,omit,omit
 % cover fob,percent.cover,abundance
 Grass cover (%),percent.cover,abundance
-% cover increases,omit,omit
 forb diversity,diversity,abundance
 grass diversity,diversity,abundance
 height,height,abundance
-% Family dominance,omit,omit
-% predators,omit,omit
-% Species dominance,omit,omit
-Family richness,richness,diversity
-Hurlbert?s PIE (Family),omit,omit
-Hurlbert?s PIE (species),omit,omit
-Margalef?s family,omit,omit
-Margalef?s species,omit,omit
 Total individuals,abundance,abundance
-bare ground,omit,omit
-brown cover,omit,omit
 canopy height,height,abundance
 green cover',percent.cover,abundance
-litter cover,omit,omit
-litter depth,omit,omit
 abundance,abundance,abundance
 grasshopper body length,body length,abundance
-grasshopper richness,richness,diversity
 residual wing length,wing length,abundance
-grass richness,richness,diversity
-height heterogeneity,omit,omit
 vegetation height,height,abundance
 percent grass canopy,percent.cover,abundance
-Number species,diversity,diversity
-Number ant species,diversity,diversity
 shrub cover,percent.cover,abundance
 Number lizard scat,scat density,abundance
-Number morphospecies,diversity,diversity
-Number orders,omit,omit
-Total,omit,omit
-Bare soil cover,omit,omit
 Exotic cover,percent.cover,abundance
-Exotic richness,richness,diversity
 Forb cover (%),percent.cover,abundance
 Grass cover (%),percent.cover,abundance
 Native cover,percent.cover,abundance
-Native richness,richness,diversity
 Tree cover,percent.cover,abundance
 Vegetation cover,percent.cover,abundance
-hyphal length,hyphal length,omit
 spore density,density,abundance
-evenness,diversity,diversity
-survival (artificial nest),survival,fitness
-survival (tracking tunnel),survival,fitness
 quantity,abundance,abundance
-adult richness,richness,diversity
 soil microbial biomass carbon abundance,Microbial biomass C content,abundance
-shannon index,diversity,diversity
 abundance (adults;  21 to 24 july),abundance,abundance
 abundance (adults; 14 to 17 july),abundance,abundance
 abundance (adults; 5 to 8 august),abundance,abundance
@@ -281,20 +194,8 @@ abundance (nymphss; 14 to 17 july),abundance,abundance
 abundance (nymphss; 5 to 8 august),abundance,abundance
 abundance (nymphss; 8 to 13 july),abundance,abundance
 burrow entrances,burrow entrances,abundance
-nearest neighbour distance,omit,omit
-immunoreactive corticosterone metabolites (Female),omit,omit
-immunoreactive corticosterone metabolites (Male),omit,omit
 density (baited trap),density,abundance
-size,omit,omit
-richness (1100 individuals),richness,diversity
 abundance (grass),abundance,abundance
-composition (axis 1),omit,omit
-composition (axis 2),omit,omit
-omit,omit,omit
-mean pregnancies,mean pregnancies,fitness
-summer survival,survival,fitness
-winter survival,survival,fitness
-relative abundance,omit,omit
 aboveground biomass,abundance,abundance
 belowground biomass,abundance,abundance
 mound basal area,area,abundance
@@ -302,16 +203,7 @@ mound density,density,abundance
 body mass,size,abundance
 abundance of all species,abundance,abundance
 abundance of forest specialist,abundance,abundance
-abundance of ground runners,omit,omit
-abundance of space web builders,omit,omit
 abundance of wandering sheet/tangle weavers,abundance,abundance
-richness of all species,richness,diversity
-richness of forest specialist,omit,omit
-richness of ground runners,omit,omit
-richness of space web builders,omit,omit
-richness of wandering sheet/tangle weavers,omit,omit
-bare ground,omit,omit
-coarse woody debris cover m3,omit,omit
 fine woody debris cover,percent.cover,abundance
 ground vegetation cover,percent.cover,abundance
 litter cover,percent.cover,abundance
@@ -319,85 +211,171 @@ body mass g,size,abundance
 post hibertion abundance across years,abundance,abundance
 pre hibertion abundance across years,abundance,abundance
 proportiol body mass growth rate,growth rate,abundance
-preferred food post hibertion,preferred food,behavioural
-preferred food pre hibertion,preferred food,behavioural
-total food post hibertion ,omit,omit
-total food pre hibertion ,omit,omit
 carnivores abundance,abundance,abundance
-carnivores richness,richness,diversity
 dimorphic abundance,abundance,abundance
-dimorphic richness,richness,diversity
 herbivores abundance,abundance,abundance
-herbivores richness,richness,diversity
 large eye abundance,abundance,abundance
-large eye richness,richness,diversity
 long winged abundance,abundance,abundance
-long winged richness,richness,diversity
 short winged abundance,abundance,abundance
-short winged richness,richness,diversity
 small eye abundance,abundance,abundance
-small eye richness,richness,diversity
 total biomass,abundance,abundance
-structural heterogeneity,omit,omit
-Bacterivores abundance,omit,omit
 biomass (?g/ kg dry soil),abundance,abundance
-invert body mass,omit,omit
-Invert Bodysize,omit,omit
-Fungivores abundance,omit,omit
-Invert l.w.ratio,omit,omit
-Length,omit,omit
 Omnivores abundance,abundance,abundance
 Plant_feeders abundance,abundance,abundance
 Predators abundance,abundance,abundance
 Total abundance,abundance,abundance
-Width,omit,omit
 density of all bird species (n/ha),density,abundance
-density of granivorous ground feeding residents (n/ha),omit,omit
-"density of insectivorous, arboreal migrants (n/ha)",omit,omit
-"density of Insectivorous, arboreal residents (n/ha)",omit,omit
-"density of insectivorous, ground feeding migrants (n/ha)",omit,omit
-"density of insectivorous, ground feeding residents (n/ha)",omit,omit
 percentage of woody species cover,percent.cover,abundance
 density per ha,density,abundance
-cover of dicots,omit,omit
-cover of monocots,omit,omit
 cover of total vegetation,percent.cover,abundance
 litter,litter.cover,abundance
 number of nests,abundance,abundance
 number of solitary caterpillars,abundance,abundance
-nutrient exchange site colonization,omit,omit
-percent root length colonization,omit,omit
 vesicle colonization,vesicle colonization,abundance
-percentage of root colonization with hyphal,omit,omit
-percentage of root colonization with mycorrhiza hyphal,omit,omit
-percentage of root colonization with vesicles,omit,omit
-percentage of root with arbuscule colonization,omit,omit
 browse biomass gm2 at foraging site,abundance,abundance
 browse biomass gm2 at range wide,abundance,abundance
 groundcover biomass gm2 at foraging site,abundance,abundance
 groundcover biomass gm2 at range wide,abundance,abundance
 proportion of deep burrows remaing intact,burrow.density,abundance
 proportion of shallow burrows remaing intact,burrow.density,abundance
-lizard burrow depth,burrow.depth,behavioural
-fractial dimension,omit,omit
-mean step length,omit,omit
-"net displacement, m",omit,omit
 Abundance of ecotone species,abundance,abundance
 Abundance of grassland species,abundance,abundance
 Abundance of shrub species,abundance,abundance
 Abundance of woodland species,abundance,abundance
-bird diversity,diversity,diversity
-heterogeneith of vegetation height (CV percentage),omit,omit
 Vegetation height (cm),height,abundance
+Canopy cover (%),percent.cover,abundance
+abundance of diurl,abundance,abundance
+abundance of nocturl,abundance,abundance
+butterfly richness,abundance,abundance
+red listed butterfly species richness,abundance,abundance
+hoverfly abundance,abundance,abundance
+beetle abundance,abundance,abundance
+bee abundance,abundance,abundance
+butterfly abundance,abundance,abundance
+bee abundance with Apis mellifera,abundance,abundance
+bee abundance without Apis mellifera,abundance,abundance
+grassland rarefied species,abundance,abundance
+density declining species,density,abundance
+density non declining species,density,abundance
+spring density/ha,density,abundance
+winter density/ha,density,abundance
+vegetation height >30 cm,height,abundance
+vegetation height 0 15 cm,height,abundance
+vegetation height 15 30 cm,height,abundance
+woody species cover,percent.cover,abundance
+female density,density,abundance
+juveniles/female,abundance,abundance
+male density,density,abundance
+abundance of ant colony,abundance,abundance
+grass height,height,abundance
+visitor abundance,abundance,abundance
+flower visitation frequency,frequency,abundance
+number flowers,abundance,abundance
+density/m2,density,abundance
+abundance of all taxa,abundance,abundance
+richness of all taxa,richness,abundance
+number of territory,abundance,abundance
+Microbial biomass (ug biomass C / g DW),abundance,abundance
+Soil respiration (ul CO2 g/DW hour),respiration,abundance
+Density of total Collembla (#/m2),density,abundance
+Number of species soil ,abundance,abundance
+Number of species vegetation and litter,abundance,abundance
+microbial C (ug/gsoil) 0 10 cm,Microbial biomass C content,abundance
+microbial C (ug/gsoil) 10 20 cm,Microbial biomass C content,abundance
+microbial N (ug/gsoil) 0 10 cm,Microbial biomass N content,abundance
+microbial N (ug/gsoil) 10 20 cm,Microbial biomass N content,abundance
+microbial P (ug/gsoil) 0 10 cm,microbial biomass P content,abundance
+microbial P (ug/gsoil) 10 20 cm,microbial biomass P content,abundance
+Fecal Egg Count,abundance,abundance
+percent occurrence,percent occurance,abundance
+n caught/400 trap nights,abundance,abundance
+Droppings,scat density,abundance
+Frequency of occurrence,frequency,abundance
+proportion of habitat use,habitat area,abundance
+population size,abundance,abundance
+Grass cover (%),percent.cover,abundance
+Grass height (cm),height,abundance
+Density of active nests,density,abundance
+Abundance (N),abundance,abundance
+Biomass (ug),abundance,abundance
+Shannon Diversity Abundance,abundance,abundance
+Shannon Diversity Biomass,abundance,abundance
+Simpson Diversity Abundance,abundance,abundance
+Simpson Diversity Biomass,abundance,abundance
+hare count,abundance,abundance
+rabbit count,abundance,abundance
+ant seed removal (g/tray/12 hour),seed removal,behavioural
+rodent seed removal (g/tray/12 hour),seed removal,behavioural
+core area (ha),core area,behavioural
+home range (ha),home range,behavioural
+preferred food post hibertion,preferred food,behavioural
+preferred food pre hibertion,preferred food,behavioural
+lizard burrow depth,burrow.depth,behavioural
+individual collecting pollen,visitation.rate,behavioural
+individual feeding on nector,nectar.feeding,behavioural
+individual feeding on pollen,foraging,behavioural
+number of plant visited,visitation.rate,behavioural
+prop. flowers visite,behaviour,behavioural
+visitation rate,behaviour,behavioural
+visitor activity diversity,visitation.diversity,behavioural
+visitors per plot,visitation.rate,behavioural
+consumption/kg ha,behaviour,behavioural
+Species richness,richness,diversity
+Diversity (Shannon's H),diversity,diversity
+richness,richness,diversity
+Species richness All Bees,richness,diversity
+Shannon diversity (H),diversity,diversity
+Orthoptera individual richness,richness,diversity
+Hemiptera individual richness,richness,diversity
+Coleptera individual richness,richness,diversity
+Diptera individual richness,richness,diversity
+Hymenoptera individual richness,richness,diversity
+Homoptera individual richness,richness,diversity
+Lepidoptera individual richness,richness,diversity
+Mantodea individual richness,richness,diversity
+Neuroptera individual richness,richness,diversity
+Shannon Diversity,diversity,diversity
+RedList.species,rare.richness,diversity
+Shannon Diversity,diversity,diversity
+diversity,diversity,diversity
+evenness,diversity,diversity
+interaction diversity,diversity,diversity
+floral species richness,richness,diversity
+species rich,richness,diversity
+Species richness/g soil,richness,diversity
+richness/transect,richness,diversity
+Total taxon richness,richness,diversity
+Species Richness/plot,richness,diversity
+Species Richness/plot,richness,diversity
+richness per site,richness,diversity
+bird species richness,richness,diversity
+Family richness,richness,diversity
+grasshopper richness,richness,diversity
+grass richness,richness,diversity
+Number species,diversity,diversity
+Number ant species,diversity,diversity
+Number morphospecies,diversity,diversity
+Exotic richness,richness,diversity
+Native richness,richness,diversity
+evenness,diversity,diversity
+adult richness,richness,diversity
+shannon index,diversity,diversity
+richness (1100 individuals),richness,diversity
+richness of all species,richness,diversity
+carnivores richness,richness,diversity
+dimorphic richness,richness,diversity
+herbivores richness,richness,diversity
+large eye richness,richness,diversity
+long winged richness,richness,diversity
+short winged richness,richness,diversity
+small eye richness,richness,diversity
+bird diversity,diversity,diversity
 richness at site in dry season,richness,diversity
 richness at site in wet season,richness,diversity
 richness at transect in dry season,richness,diversity
 richness at transect in wet season,richness,diversity
 richness at trap in dry season,richness,diversity
 richness at trap in wet season,richness,diversity
-Canopy cover (%),percent.cover,abundance
-abundance of diurl,abundance,abundance
-abundance of nocturl,abundance,abundance
 diurl LC threatened species,rare.richness,diversity
 diurl NT threatened species,rare.richness,diversity
 diurl TRE threatened species,rare.richness,diversity
@@ -412,61 +390,138 @@ LC threatened species,rare.richness,diversity
 NT threatened species,rare.richness,diversity
 transylvania endemic,rare.richness,diversity
 TRE threatened species,rare.richness,diversity
-widespread,omit,omit
-butterfly richness,abundance,abundance
-red listed butterfly species richness,abundance,abundance
 magement dependent plant species richness,richness,diversity
-hoverfly abundance,abundance,abundance
 hoverfly richness,richness,diversity
-beetle abundance,abundance,abundance
 beetle richness,richness,diversity
-bee abundance,abundance,abundance
 bee richness,richness,diversity
-butterfly abundance,abundance,abundance
 plant species richness,richness,diversity
-bee abundance with Apis mellifera,abundance,abundance
-bee abundance without Apis mellifera,abundance,abundance
 bee richness with Apis mellifera,richness,diversity
 bee richness without Apis mellifera,richness,diversity
-insect pollited plant cover,omit,omit
-insect pollited plant richness,omit,omit
 Alatalo's evenness index of all species,diversity,diversity
-Alatalo's evenness index of grassland species,omit,omit
-all rarefied species,omit,omit
 alpha evenness index of all species,diversity,diversity
-alpha evenness index of grassland species,omit,omit
-grassland rarefied species,abundance,abundance
-N1 diversity index of all species,omit,omit
-N1 diversity index of grassland species,omit,omit
 N2 diversity index of all species,diversity,diversity
-N2 diversity index of grassland species,omit,omit
 richness of grassland species,richness,diversity
-density declining species,density,abundance
-density non declining species,density,abundance
 richness declining species,richness,diversity
 richness non declining species,richness,diversity
-spring density/ha,density,abundance
-winter density/ha,density,abundance
-vegetation height >30 cm,height,abundance
-vegetation height 0 15 cm,height,abundance
-vegetation height 15 30 cm,height,abundance
-woody species cover,percent.cover,abundance
+visitor richness,richness,diversity
+alpha diversity,diversity,diversity
+beta diversity,diversity,diversity
+number of total species,richness,diversity
+diversity (H),diversity,diversity
+Shannon Diversity Index,diversity,diversity
+Shannon evenness,diversity,diversity
+Grass diversity (H),diversity,diversity
+daily mortality rate,mortality rate,fitness
+daily predation rate,predation rate,fitness
+Percent reproductive individuals,percent reproductive individuals,fitness
+fledgling survival,survival,fitness
+juvenile survival,survival,fitness
+nest success (%),nest success,fitness
+clutch size,clutch size,fitness
+daily nest survival,survival,fitness
+interval survival,survival,fitness
+survival (artificial nest),survival,fitness
+survival (tracking tunnel),survival,fitness
+mean pregnancies,mean pregnancies,fitness
+summer survival,survival,fitness
+winter survival,survival,fitness
 breeding success,breeding success,fitness
-brood percentage,omit,omit
 brood size,brood size,fitness
-female density,density,abundance
-juveniles/female,abundance,abundance
-male density,density,abundance
-abundance of ant colony,abundance,abundance
+stage specific survival,survival,fitness
+Overwinter Survival,survival,fitness
+Daily survival rate chick,survival,fitness
+Daily survival rate incubation,survival,fitness
+nestling condition,nestling condition,fitness
+VOR (Visual Obstruction Reading),omit,omit
+Vegetation structure (robel estimate),omit,omit
+vegetation height (PCA value),omit,omit
+Avg. optical density (OD590),omit,omit
+Arthropods/m2,omit,omit
+Arthropods/m3,omit,omit
+Arthropods/m4,omit,omit
+Arthropods/m5,omit,omit
+Arthropods/m6,omit,omit
+Arthropods/m7,omit,omit
+Arthropods/m8,omit,omit
+Arthropods/m9,omit,omit
+change in birds/ha from beginning of experiment,omit,omit
+10^9 cells/g,omit,omit
+% cover decreasers,omit,omit
+% cover increases,omit,omit
+% Family dominance,omit,omit
+% predators,omit,omit
+% Species dominance,omit,omit
+Hurlbert?s PIE (Family),omit,omit
+Hurlbert?s PIE (species),omit,omit
+Margalef?s family,omit,omit
+Margalef?s species,omit,omit
+bare ground,omit,omit
+brown cover,omit,omit
+litter cover,omit,omit
+litter depth,omit,omit
+height heterogeneity,omit,omit
+Number orders,omit,omit
+Total,omit,omit
+Bare soil cover,omit,omit
+hyphal length,hyphal length,omit
+nearest neighbour distance,omit,omit
+immunoreactive corticosterone metabolites (Female),omit,omit
+immunoreactive corticosterone metabolites (Male),omit,omit
+size,omit,omit
+composition (axis 1),omit,omit
+composition (axis 2),omit,omit
+omit,omit,omit
+relative abundance,omit,omit
+abundance of ground runners,omit,omit
+abundance of space web builders,omit,omit
+richness of forest specialist,omit,omit
+richness of ground runners,omit,omit
+richness of space web builders,omit,omit
+richness of wandering sheet/tangle weavers,omit,omit
+bare ground,omit,omit
+coarse woody debris cover m3,omit,omit
+total food post hibertion ,omit,omit
+total food pre hibertion ,omit,omit
+structural heterogeneity,omit,omit
+Bacterivores abundance,omit,omit
+invert body mass,omit,omit
+Invert Bodysize,omit,omit
+Fungivores abundance,omit,omit
+Invert l.w.ratio,omit,omit
+Length,omit,omit
+Width,omit,omit
+density of granivorous ground feeding residents (n/ha),omit,omit
+"density of insectivorous, arboreal migrants (n/ha)",omit,omit
+"density of Insectivorous, arboreal residents (n/ha)",omit,omit
+"density of insectivorous, ground feeding migrants (n/ha)",omit,omit
+"density of insectivorous, ground feeding residents (n/ha)",omit,omit
+cover of dicots,omit,omit
+cover of monocots,omit,omit
+nutrient exchange site colonization,omit,omit
+percent root length colonization,omit,omit
+percentage of root colonization with hyphal,omit,omit
+percentage of root colonization with mycorrhiza hyphal,omit,omit
+percentage of root colonization with vesicles,omit,omit
+percentage of root with arbuscule colonization,omit,omit
+fractial dimension,omit,omit
+mean step length,omit,omit
+"net displacement, m",omit,omit
+heterogeneith of vegetation height (CV percentage),omit,omit
+widespread,omit,omit
+insect pollited plant cover,omit,omit
+insect pollited plant richness,omit,omit
+Alatalo's evenness index of grassland species,omit,omit
+all rarefied species,omit,omit
+alpha evenness index of grassland species,omit,omit
+N1 diversity index of all species,omit,omit
+N1 diversity index of grassland species,omit,omit
+N2 diversity index of grassland species,omit,omit
+brood percentage,omit,omit
 large insectivorous local extinction/recolonization,omit,omit
 mixed diet local extinction/recolonization,omit,omit
 small insectivorous local extinction/recolonization,omit,omit
 small mixed diet local extinction/recolonization,omit,omit
 tree/shrub foragers local extinction/recolonization,omit,omit
-grass height,height,abundance
-individual collecting pollen,visitation.rate,behavioural
-individual feeding on nector,nectar.feeding,behavioural
-individual feeding on pollen,foraging,behavioural
 individual flying,omit,omit
 individual in copule,omit,omit
 individual nesting,omit,omit
@@ -477,74 +532,19 @@ individual searching,omit,omit
 individual sucking,omit,omit
 individual theft,omit,omit
 individual walking,omit,omit
-number of plant visited,visitation.rate,behavioural
 number of switching visitors,omit,omit
-prop. flowers visite,behaviour,behavioural
 prop. switching visitors,omit,omit
-visitation rate,behaviour,behavioural
-visitor abundance,abundance,abundance
-visitor activity diversity,visitation.diversity,behavioural
-visitor richness,richness,diversity
-visitors per plot,visitation.rate,behavioural
-flower visitation frequency,frequency,abundance
-number flowers,abundance,abundance
 grasshopper days for all species,omit,omit
 grasshopper days,omit,omit
-stage specific survival,survival,fitness
-consumption/kg ha,behaviour,behavioural
-density/m2,density,abundance
 standardized species richness,omit,omit
-abundance of all taxa,abundance,abundance
 abundance of generalist species,omit,omit
 abundance of specialist species,omit,omit
-richness of all taxa,richness,abundance
 richness of generalist species,omit,omit
 richness of specialist species,omit,omit
-alpha diversity,diversity,diversity
-beta diversity,diversity,diversity
-number of territory,abundance,abundance
 number of species asscociated with sandy soils,omit,omit
-number of total species,richness,diversity
 number of vegetatioin dwelling species,omit,omit
 number of vegetation dwelling species asscociated with sandy soils,omit,omit
-Microbial biomass (ug biomass C / g DW),abundance,abundance
-Soil respiration (ul CO2 g/DW hour),respiration,abundance
-Density of total Collembla (#/m2),density,abundance
-Number of species soil ,abundance,abundance
-Number of species vegetation and litter,abundance,abundance
 Visual obstruction (score),omit,omit
-microbial C (ug/gsoil) 0 10 cm,Microbial biomass C content,abundance
-microbial C (ug/gsoil) 10 20 cm,Microbial biomass C content,abundance
-microbial N (ug/gsoil) 0 10 cm,Microbial biomass N content,abundance
-microbial N (ug/gsoil) 10 20 cm,Microbial biomass N content,abundance
-microbial P (ug/gsoil) 0 10 cm,microbial biomass P content,abundance
-microbial P (ug/gsoil) 10 20 cm,microbial biomass P content,abundance
-diversity (H),diversity,diversity
-Fecal Egg Count,abundance,abundance
-percent occurrence,percent occurance,abundance
-Shannon Diversity Index,diversity,diversity
-n caught/400 trap nights,abundance,abundance
-Droppings,scat density,abundance
-Frequency of occurrence,frequency,abundance
-proportion of habitat use,habitat area,abundance
-Overwinter Survival,survival,fitness
-population size,abundance,abundance
-Shannon evenness,diversity,diversity
 Trap success (%),omit,omit
-Grass cover (%),percent.cover,abundance
-Grass diversity (H),diversity,diversity
-Grass height (cm),height,abundance
-Density of active nests,density,abundance
-Daily survival rate chick,survival,fitness
-Daily survival rate incubation,survival,fitness
-Abundance (N),abundance,abundance
-Biomass (ug),abundance,abundance
-Shannon Diversity Abundance,abundance,abundance
-Shannon Diversity Biomass,abundance,abundance
-Simpson Diversity Abundance,abundance,abundance
-Simpson Diversity Biomass,abundance,abundance
-hare count,abundance,abundance
-rabbit count,abundance,abundance
 % abundance,omit,omit
 % total abundance,omit,omit
-nestling condition,nestling condition,fitness
