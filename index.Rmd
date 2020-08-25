@@ -58,7 +58,7 @@ mp <- NULL
 mapWorld <- borders("world", colour="gray50", fill="gray75") # create a layer of borders
 mp <- ggplot() + theme_bw()+  mapWorld
 
-mp <- mp+ geom_point(data=gpsSplit %>%  filter(grazer.status != "") , aes(x=lon, y=lat, color=grazer.status), size=2) + scale_color_manual(values=c("#D55E00", "#E69F00", "#56B4E9","grey50")) + ylab("Latitude") + xlab("Longitude")
+mp <- mp+ geom_point(data=gpsSplit %>%  filter(grazer.status != "") , aes(x=lon, y=lat, fill=grazer.status), size=2, pch=21) + scale_fill_manual(values=c("#D55E00", "#E69F00", "#56B4E9","grey50")) + ylab("Latitude") + xlab("Longitude")
 mp
 
 ```
@@ -68,9 +68,9 @@ mp
 ```{r warning=FALSE, message=FALSE}
 ## Replicates
 names(studyData)
-ggplot(studyData, aes(x = as.numeric(n.sites))) + geom_histogram(fill="Grey50") + theme_Publication() + xlab("Number of sites") + ylab("Frequency of studies") + scale_x_continuous(trans =  "log2")
+ggplot(studyData, aes(x = as.numeric(n.sites))) + geom_density(fill="Grey50") + theme_Publication() + xlab("Number of sites") + ylab("Frequency of studies") + scale_x_continuous(trans =  "log2")
 
-ggplot(studyData, aes(x = as.numeric(study.duration))) + geom_histogram(fill="Grey50") + theme_Publication() + xlab("Duration of study in years") + ylab("Frequency of studies")+ scale_x_continuous(trans =  "log2")
+ggplot(studyData, aes(x = as.numeric(study.duration))) + geom_density(fill="Grey50") + theme_Publication() + xlab("Duration of study in years") + ylab("Frequency of studies")+ scale_x_continuous(trans =  "log2")
 ```
 
 ### Pattern among Vegetation Classes
@@ -91,7 +91,7 @@ unnestGraze <- studyData %>%   unnest(herbivores = strsplit(herbivores, ";"))
 ## Summarize by each class
 herbsum <- unnestGraze %>% group_by(herbivores) %>% summarize(n=length(herbivores)) %>% filter(!is.na(herbivores)) 
 
-topherb <- herbsum %>% top_n(20) ## select 10 most commonly surveyed
+topherb <- herbsum %>% top_n(20) %>% arrange(-n) ## select 10 most commonly surveyed
 
 
 ggplot(topherb, aes(x=reorder(herbivores, -n), y=n)) + geom_bar(stat="identity") + theme_Publication() + xlab("") + ylab("Number of studies") + coord_flip()
