@@ -68,9 +68,11 @@ mp
 ```{r warning=FALSE, message=FALSE}
 ## Replicates
 names(studyData)
-ggplot(studyData, aes(x = as.numeric(n.sites))) + geom_density(fill="Grey50") + theme_Publication() + xlab("Number of sites") + ylab("Frequency of studies") + scale_x_continuous(trans =  "log2")
+plot1 <- ggplot(studyData, aes(x = as.numeric(n.sites))) + geom_density(fill="Grey50") + theme_Publication() + xlab("Number of sites") + ylab("Frequency of studies") + scale_x_continuous(trans =  "log2")
 
-ggplot(studyData, aes(x = as.numeric(study.duration))) + geom_density(fill="Grey50") + theme_Publication() + xlab("Duration of study in years") + ylab("Frequency of studies")+ scale_x_continuous(trans =  "log2")
+plot2 <- ggplot(studyData, aes(x = as.numeric(study.duration))) + geom_density(fill="Grey50") + theme_Publication() + xlab("Duration of study in years") + ylab("Frequency of studies")+ scale_x_continuous(trans =  "log2")
+
+gridExtra::grid.arrange(plot1, plot2, ncol=2)
 ```
 
 ### Pattern among Vegetation Classes
@@ -92,7 +94,7 @@ unnestGraze <- studyData %>%   unnest(herbivores = strsplit(herbivores, ";"))
 herbsum <- unnestGraze %>% group_by(herbivores) %>% summarize(n=length(herbivores)) %>% filter(!is.na(herbivores)) 
 
 topherb <- herbsum %>% top_n(20) %>% arrange(-n) ## select 10 most commonly surveyed
-
+topherb
 
 ggplot(topherb, aes(x=reorder(herbivores, -n), y=n)) + geom_bar(stat="identity") + theme_Publication() + xlab("") + ylab("Number of studies") + coord_flip()
 
@@ -106,3 +108,55 @@ studyData %>% group_by(fire) %>% summarize(n=length(uniqueID))
 studyData %>% group_by(fertilization) %>% summarize(n=length(uniqueID))
 
 ```
+
+### Comparisons of binary variables
+```{r}
+source("scripts//meta.evalSE.r")
+
+
+
+## Load packages and functions
+library(reshape2)
+library(metafor)
+source("meta.evalSE.r") ## Multiple aggregate
+
+
+## Reference data
+meta <- data
+
+## Create Unique identifier column
+meta[,"UniqueSite"] <- paste(meta$uniqueID, meta$Higher.Taxa, meta$Taxa, meta$Estimate, meta$siteID, sep="-")
+
+## convert se to sd
+meta[meta$Stat=="StDev","Value"] <- meta[meta$Stat=="StDev","Value"] / sqrt(as.numeric(meta[meta$Stat=="StDev","replicate"] ))
+meta[meta$Stat=="StDev","Stat"] <- "SE"
+
+## drop comparisons that are not pairwise
+meta <-  meta %>% filter(grazing.compare  == "ordinal/binary")
+
+## Use function to extract summary statistics for comparisons
+## meta.eval  arguments are (meta.data, compare, ids , stats)
+grazed.compare <- meta.eval(meta, grazing.level, UniqueSite, Stat)
+
+## Combine the lists into same dataframe
+## Rename Columns in second dataframe
+grazed.stat <- grazed.compare [[2]] ## extracted statistics 
+names(grazed.stat) <- c("UniqueSite","grazed_mean","grazed_se","ungrazed_mean","ungrazed_se","grazed_n","ungrazed_n") ## rename columns to match
+grazed.raw <- grazed.compare[[1]] ## calculated statistics from raw values
+
+## Join two dataframes
+meta.stat <- rbind(grazed.raw, grazed.stat[, names(grazed.raw)])
+
+## Calculate effect size from SE rather than SD. To calculate variance treat replicates as 1. 
+## https://stats.stackexchange.com/questions/152172/meta-analysis-in-r-with-standard-errors-instead-of-standard-deviations-metafor 
+meta.stat[,"dummyN"] <- 1
+meta.ready <- escalc(n1i = dummyN, n2i = dummyN, m1i = ungrazed_mean, m2i = grazed_mean, sd1i = ungrazed_se, sd2i = grazed_se, data = meta.stat, measure = "ROM", append = TRUE)
+  
+```
+
+
+
+
+
+
+

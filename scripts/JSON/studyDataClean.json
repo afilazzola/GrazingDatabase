@@ -1,0 +1,199 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "United states",
+          "United States"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "United states"
+      },
+      {
+        "from": [
+          "Canada",
+          "Canada`"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Canada"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "survey.technique",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "transect",
+          "transects",
+          "Transect",
+          "transec"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "transects"
+      },
+      {
+        "from": [
+          "soil cores",
+          "soil core",
+          "Soil core",
+          "Soil cores"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "soil cores"
+      },
+      {
+        "from": [
+          "soil cores",
+          "soil core",
+          "Soil cores"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "soil cores"
+      },
+      {
+        "from": [
+          "transect",
+          "transects",
+          "Transect"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "transects"
+      },
+      {
+        "from": [
+          "sweep net",
+          "Sweep net",
+          "sweep nets"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sweep nets"
+      },
+      {
+        "from": [
+          "pitfall traps",
+          "Pitfall traps",
+          "pitfall trap"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pitfall traps"
+      },
+      {
+        "from": [
+          "quadrats",
+          "Quadrats"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "quadrats"
+      }
+    ],
+    "description": "Mass edit cells in column survey.technique"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "survey.technique",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "transect, sweepnet",
+          "transect, sweep net"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "transect; sweepnet"
+      },
+      {
+        "from": [
+          "line trapping",
+          "live trapping"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "live trapping"
+      },
+      {
+        "from": [
+          "vaccuum sampling",
+          "vaccuum samping"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vaccuum sampling"
+      },
+      {
+        "from": [
+          "survey",
+          "surveys"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "visual surveys"
+      },
+      {
+        "from": [
+          "dung survey",
+          "dung surveys"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dung surveys"
+      },
+      {
+        "from": [
+          "transect count",
+          "transect/count"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "transects"
+      },
+      {
+        "from": [
+          "Sherman live traps",
+          "Sherman livetraps"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "live trapping"
+      },
+      {
+        "from": [
+          "visual survey",
+          "visual surveys"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "visual surveys"
+      }
+    ],
+    "description": "Mass edit cells in column survey.technique"
+  }
+]
