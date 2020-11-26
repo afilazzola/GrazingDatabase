@@ -8219,15 +8219,15 @@ uniqueID,Higher.Taxa,Taxa,Detailed.Taxa,Genus,Species,siteID,year,grazing.compar
 1649,Plants,Plantae,,NA,NA,national elk refuge,NA,ordinal/binary,ungrazed,NA,NA,composition (axis 2),4,SE,0.0349
 1649,Plants,Plantae,,NA,NA,national elk refuge,NA,ordinal/binary,ungrazed,NA,NA,composition (axis 2),4,mean,-0.0129
 1649,Plants,Plantae,,NA,NA,national elk refuge,NA,ordinal/binary,grazed,NA,NA,composition (axis 2),4,SE,0.021522245
-2100,Invertebrate,Arthropoda,,,,NP,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,consumption/kg ha,4,count,37
+2100,Invertebrate,Arthropoda,,,,NP,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,consumption/kg ha,4,count,37
 2100,Invertebrate,Arthropoda,,,,NP,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,consumption/kg ha,4,count,124.6
 2100,Invertebrate,Arthropoda,,,,NP,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,consumption/kg ha,4,count,59.5
-2100,Invertebrate,Arthropoda,,,,NP,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,consumption/kg ha,4,count,21.9
+2100,Invertebrate,Arthropoda,,,,NP,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,consumption/kg ha,4,count,21.9
 2100,Invertebrate,Arthropoda,,,,NP,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,consumption/kg ha,4,count,97
-2100,Invertebrate,Arthropoda,,,,NP,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,consumption/kg ha,4,count,55.8
-2100,Invertebrate,Arthropoda,,,,NP,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,consumption/kg ha,4,count,32.6
+2100,Invertebrate,Arthropoda,,,,NP,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,consumption/kg ha,4,count,55.8
+2100,Invertebrate,Arthropoda,,,,NP,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,consumption/kg ha,4,count,32.6
 2100,Invertebrate,Arthropoda,,,,NP,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,consumption/kg ha,4,count,287.5
-2100,Invertebrate,Arthropoda,,,,NP,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,consumption/kg ha,4,count,83.6
+2100,Invertebrate,Arthropoda,,,,NP,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,consumption/kg ha,4,count,83.6
 2100,Invertebrate,Arthropoda,,,,NP,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,consumption/kg ha,4,count,474.5
 747,Vertebrate,Aves,,Molothrus,ater,NRA-Whit,1995,ordinal/binary,grazed,,,core area (ha),16,mean,180.3
 747,Vertebrate,Aves,,Molothrus,ater,NRA-Whit,1995,ordinal/binary,grazed,,,core area (ha),16,SE,30.4
@@ -8956,16 +8956,16 @@ uniqueID,Higher.Taxa,Taxa,Detailed.Taxa,Genus,Species,siteID,year,grazing.compar
 2002,Vertebrate,Aves,,,,M2,2001,ordinal/binary,moderately grazed,horse km2,17,density/ha,44,StDev,1.94
 2002,Vertebrate,Aves,,,,M3,2001,ordinal/binary,moderately grazed,horse km2,17,density/ha,44,StDev,2.8
 2002,Vertebrate,Aves,,,,M3,2001,ordinal/binary,moderately grazed,horse km2,17,density/ha,44,mean,3.65
-2100,Invertebrate,Arthropoda,,,,NP,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,density/m2,4,count,2.6
+2100,Invertebrate,Arthropoda,,,,NP,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,density/m2,4,count,2.6
 2100,Invertebrate,Arthropoda,,,,NP,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,density/m2,4,count,8.3
-2100,Invertebrate,Arthropoda,,,,NP,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,density/m2,4,count,1.4
+2100,Invertebrate,Arthropoda,,,,NP,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,density/m2,4,count,1.4
 2100,Invertebrate,Arthropoda,,,,NP,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,density/m2,4,count,4.6
 2100,Invertebrate,Arthropoda,,,,NP,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,density/m2,4,count,6.2
-2100,Invertebrate,Arthropoda,,,,NP,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,density/m2,4,count,3.3
+2100,Invertebrate,Arthropoda,,,,NP,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,density/m2,4,count,3.3
 2100,Invertebrate,Arthropoda,,,,NP,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,density/m2,4,count,18.4
-2100,Invertebrate,Arthropoda,,,,NP,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,density/m2,4,count,2.1
+2100,Invertebrate,Arthropoda,,,,NP,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,density/m2,4,count,2.1
 2100,Invertebrate,Arthropoda,,,,NP,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,density/m2,4,count,26.8
-2100,Invertebrate,Arthropoda,,,,NP,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,density/m2,4,count,5.6
+2100,Invertebrate,Arthropoda,,,,NP,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,density/m2,4,count,5.6
 621,Vertebrate,Aves,,,,Cordoba,2002,ordinal/binary,grazed,AUM/ha,1,density/transect,8,SE,1.055
 621,Vertebrate,Aves,,,,Cordoba,2002,ordinal/binary,grazed,AUM/ha,1,density/transect,8,mean,12.42
 621,Vertebrate,Aves,,,,Cordoba,2002,ordinal/binary,ungrazed,AUM/ha,0,density/transect,8,mean,9.02
@@ -9508,86 +9508,86 @@ uniqueID,Higher.Taxa,Taxa,Detailed.Taxa,Genus,Species,siteID,year,grazing.compar
 1370,Invertebrate,Arthropoda,Orthoptera,NA,NA,complete ungulate exclosure,2010,ordinal/binary,ungrazed,0,droppings/m2/visit,grasshopper body length,8,mean,22.064
 1370,Invertebrate,Arthropoda,Orthoptera,NA,NA,control,2010,ordinal/binary,grazed,0.078,droppings/m2/visit,grasshopper body length,8,mean,21.975
 1370,Invertebrate,Arthropoda,Orthoptera,NA,NA,control,2010,ordinal/binary,grazed,0.078,droppings/m2/visit,grasshopper body length,8,SE,1.008
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,9.217
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,9.217
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,0
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,19.167
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,22.222
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,3.991
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,22.222
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,3.991
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,0
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,8.641
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,8.641
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,2.304
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,179.722
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,179.722
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,89.722
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,3.991
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,3.991
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,3.991
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,5.76
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,5.76
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,1.152
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,156.944
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,64.444
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,17.295
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,64.444
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,17.295
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,5.987
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,20.737
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,20.737
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,65.668
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,40
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,40
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,21.111
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,7.982
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,28.603
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,22.465
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,28.603
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,22.465
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,CW,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,309.332
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,51.667
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,51.667
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,CW,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,75.278
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,19.956
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,31.264
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,0
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,CW,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,31.264
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,0
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,0
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,3.611
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,3.611
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,53.889
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,0.665
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,0.665
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,47.228
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,0.576
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,0.576
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,35.714
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,70
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,1.944
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,1.944
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,11.308
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,3.991
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,3.991
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,78.341
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,27.074
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,27.074
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,68.333
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,8.611
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,8.611
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,49.224
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,4.656
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,4.656
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,311.636
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,14.401
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,4.444
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,14.401
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,4.444
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,108.889
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,216.851
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,15.965
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,15.965
 2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,463.71
-2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,43.779
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,9.444
+2100,Invertebrate,Arthropoda,Orthoptera,Encoptolophus,costalis,NP,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,43.779
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,9.444
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,gladstoni,NP,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,194.722
-2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days,9,count,32.594
+2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days,9,count,32.594
 2100,Invertebrate,Arthropoda,Orthoptera,Opeia,obscura,NP,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days,9,count,531.486
 2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,9,count,1258.333
-2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,9,count,1408.333
+2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,9,count,1408.333
 2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,9,count,2508.333
-2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,9,count,3191.667
-2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,9,count,750
+2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,9,count,3191.667
+2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,9,count,750
 2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,9,count,1570.833
 2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,9,count,758.333
-2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,9,count,1666.667
+2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,9,count,1666.667
 2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,9,count,2525
-2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,9,count,2270.833
-2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,4,count,166.667
+2100,Invertebrate,Arthropoda,Orthoptera,,,CW,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,9,count,2270.833
+2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,4,count,166.667
 2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,4,count,550
-2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,4,count,200
+2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,4,count,200
 2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,4,count,375
-2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,4,count,225
+2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,4,count,225
 2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,4,count,466.667
-2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,4,count,216.667
+2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,4,count,216.667
 2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,4,count,1258.333
 2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,grasshopper days for all species,4,count,2075
-2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,grasshopper days for all species,4,count,350
+2100,Invertebrate,Arthropoda,Orthoptera,,,NP,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,grasshopper days for all species,4,count,350
 1370,Invertebrate,Arthropoda,Orthoptera,NA,NA,complete ungulate exclosure,2010,ordinal/binary,ungrazed,0,droppings/m2/visit,grasshopper richness,8,SE,0.833
 1370,Invertebrate,Arthropoda,Orthoptera,NA,NA,complete ungulate exclosure,2010,ordinal/binary,ungrazed,0,droppings/m2/visit,grasshopper richness,8,mean,11.13
 1370,Invertebrate,Arthropoda,Orthoptera,NA,NA,control,2010,ordinal/binary,grazed,0.078,droppings/m2/visit,grasshopper richness,8,SE,1.411
@@ -14984,25 +14984,25 @@ uniqueID,Higher.Taxa,Taxa,Detailed.Taxa,Genus,Species,siteID,year,grazing.compar
 2002,Vertebrate,Aves,,,,,2001,ordinal/binary,instensively grazed,horse km2,30,spring density/ha,32,mean,1.52
 2002,Vertebrate,Aves,,,,,2001,ordinal/binary,instensively grazed,horse km2,30,spring density/ha,32,SE,0.32
 2002,Vertebrate,Aves,,,,,2001,ordinal/binary,moderately/ungrazed,horse km2,17,spring density/ha,44,SE,1.34
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,StDev,0.138
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,StDev,0.138
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,StDev,0.355
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1993,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,mean,0.719
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1993,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,mean,0.719
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1993,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,mean,0.708
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,mean,0.428
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,mean,0.428
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,mean,0.426
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1994,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,StDev,0.19
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1994,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,StDev,0.19
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1994,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,StDev,0.053
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,mean,0.721
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1995,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,StDev,0
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,mean,0.721
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1995,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,StDev,0
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,StDev,0
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1995,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,mean,0.993
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,mean,0.645
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,StDev,0.087
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,StDev,0.087
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1997,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,StDev,0.371
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1997,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,mean,0.435
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1997,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,mean,0.435
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,StDev,0.153
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,StDev,0.048
-2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1998,ordinal/binary,rotatiol,stocking rate,0.872 AUM,stage specific survival,4,mean,0.481
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,StDev,0.048
+2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1998,ordinal/binary,rotational,stocking rate,0.872 AUM,stage specific survival,4,mean,0.481
 2100,Invertebrate,Arthropoda,Orthoptera,Melanoplus,sanguinipes,NP,1998,ordinal/binary,season-long,stocking rate,0.862 AUM,stage specific survival,4,mean,0.715
 2117,Invertebrate,Arthropoda,Hymenoptera,,,bees,2011,ordinal/binary,abandoned,,,standardized species richness,30,SE,0.089795918
 2117,Invertebrate,Arthropoda,Hymenoptera,,,bees,2011,ordinal/binary,abandoned,,,standardized species richness,30,mean,0.846

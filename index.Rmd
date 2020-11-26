@@ -1,7 +1,6 @@
 ---
 title: "A global database on animal biodiversity measured in different grazing treatments"
 author: "Alessandro Filazzola & Tianna Barber-Cross"
-date: "6/19/2020"
 output:
   html_document:
     theme: flatly
@@ -73,6 +72,19 @@ plot1 <- ggplot(studyData, aes(x = as.numeric(n.sites))) + geom_density(fill="Gr
 plot2 <- ggplot(studyData, aes(x = as.numeric(study.duration))) + geom_density(fill="Grey50") + theme_Publication() + xlab("Duration of study in years") + ylab("Frequency of studies")+ scale_x_continuous(trans =  "log2")
 
 gridExtra::grid.arrange(plot1, plot2, ncol=2)
+
+# studyData$n.sites <- as.numeric(studyData$n.sites)
+# 
+# nstudies <- function(x){
+# nfilt <- studyData %>% filter(study.duration > x) %>%  nrow()
+# return(as.vector(nfilt))
+# }
+# 
+# studiesSites <- unlist(sapply(1:30, nstudies))
+# studiesYears <- unlist(sapply(1:30, nstudies))
+# studiesList <- data.frame(rep=c(1:30,1:30), type= c(rep("years",30),rep("sites",30)), nstudies = c(studiesYears, studiesSites))
+# 
+# ggplot(studiesList, aes(x=rep, y=nstudies, color=type)) +geom_point()
 ```
 
 ### Pattern among Vegetation Classes
@@ -110,15 +122,13 @@ studyData %>% group_by(fertilization) %>% summarize(n=length(uniqueID))
 ```
 
 ### Comparisons of binary variables
-```{r}
-source("scripts//meta.evalSE.r")
-
+```{r warning=FALSE, message=FALSE}
 
 
 ## Load packages and functions
 library(reshape2)
 library(metafor)
-source("meta.evalSE.r") ## Multiple aggregate
+source("scripts//meta.evalSE.R")
 
 
 ## Reference data
@@ -143,19 +153,22 @@ grazed.compare <- meta.eval(meta, grazing.level, UniqueSite, Stat)
 grazed.stat <- grazed.compare [[2]] ## extracted statistics 
 names(grazed.stat) <- c("UniqueSite","grazed_mean","grazed_se","ungrazed_mean","ungrazed_se","grazed_n","ungrazed_n") ## rename columns to match
 grazed.raw <- grazed.compare[[1]] ## calculated statistics from raw values
+grazed.raw
 
-## Join two dataframes
-meta.stat <- rbind(grazed.raw, grazed.stat[, names(grazed.raw)])
-
-## Calculate effect size from SE rather than SD. To calculate variance treat replicates as 1. 
-## https://stats.stackexchange.com/questions/152172/meta-analysis-in-r-with-standard-errors-instead-of-standard-deviations-metafor 
-meta.stat[,"dummyN"] <- 1
-meta.ready <- escalc(n1i = dummyN, n2i = dummyN, m1i = ungrazed_mean, m2i = grazed_mean, sd1i = ungrazed_se, sd2i = grazed_se, data = meta.stat, measure = "ROM", append = TRUE)
   
 ```
 
 
+### Which countries were most examined
+```{r warning=FALSE, message=FALSE}
+library(maps)
+library(raster)
+gpsSplit[,"countries"] <- map.where(x = gpsSplit$lon, y = gpsSplit$lat)
 
+## Number of unique countries
+gpsSplit %>% filter(!is.na(countries)) %>% summarize(n=length(unique(countries)))
+
+```
 
 
 
