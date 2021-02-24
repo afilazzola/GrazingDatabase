@@ -17,7 +17,6 @@ editor_options:
 
 ![](./grazing.jpg)
 
-
 ### Load Libraries and Data
 ```{r warning=FALSE, message=FALSE}
 ## Load libraries
@@ -54,10 +53,10 @@ require(ggmap)
 require(maps)
 ###  Start with base map of world
 mp <- NULL
-mapWorld <- borders("world", colour="gray50", fill="gray75") # create a layer of borders
-mp <- ggplot() + theme_bw()+  mapWorld
+mapWorld <- borders("world", colour="white", fill="gray75") # create a layer of borders
+mp <- ggplot() + theme_classic()+  mapWorld + xlim(-180,180)
 
-mp <- mp+ geom_point(data=gpsSplit %>%  filter(grazer.status != "") , aes(x=lon, y=lat, fill=grazer.status), size=2, pch=21) + scale_fill_manual(values=c("#D55E00", "#E69F00", "#56B4E9","grey50")) + ylab("Latitude") + xlab("Longitude")
+mp <- mp+ geom_point(data=gpsSplit %>%  filter(grazer.status != "") , aes(x=lon, y=lat, color=grazer.status), size=2, pch=19) + scale_color_manual(values=c("#D55E00", "#E69F00", "#56B4E9","grey50")) + ylab("Latitude") + xlab("Longitude") 
 mp
 
 ```
@@ -94,7 +93,11 @@ unnestVeg <- studyData %>%   unnest(veg.class = strsplit(veg.class, ";"))
 ## Summarize by each class
 VegClass <- unnestVeg %>% group_by(veg.class) %>% summarize(n=length(veg.class)) %>% filter(!is.na(veg.class))
 
-ggplot(VegClass, aes(x=veg.class, y=n)) + geom_bar(stat="identity") + theme_Publication() + xlab("") + ylab("Number of studies") + coord_flip()
+
+## Capitalize the names of each
+VegClass[,"capitalVegClass"] <- str_to_title(VegClass$veg.class)
+
+ggplot(VegClass, aes(x=capitalVegClass, y=n)) + geom_bar(stat="identity") + theme_Publication() + xlab("") + ylab("Number of studies") + coord_flip()
 
 ```
 
@@ -105,10 +108,17 @@ unnestGraze <- studyData %>%   unnest(herbivores = strsplit(herbivores, ";"))
 ## Summarize by each class
 herbsum <- unnestGraze %>% group_by(herbivores) %>% summarize(n=length(herbivores)) %>% filter(!is.na(herbivores)) 
 
+## Simplified name
+herbSimple <- read.csv("data//simpleCategories//herbsum.csv") %>% select(-n)
+herbsum <- merge(herbsum, herbSimple) %>% group_by(simpleHerbivoreName) %>% summarize(n=sum(n)) 
+
 topherb <- herbsum %>% top_n(20) %>% arrange(-n) ## select 10 most commonly surveyed
 topherb
 
-ggplot(topherb, aes(x=reorder(herbivores, -n), y=n)) + geom_bar(stat="identity") + theme_Publication() + xlab("") + ylab("Number of studies") + coord_flip()
+## Capitalize the names of each
+topherb[,"simpleHerbivoreName"] <- str_to_title(topherb$simpleHerbivoreName)
+
+ggplot(topherb, aes(x=reorder(simpleHerbivoreName, -n), y=n)) + geom_bar(stat="identity") + theme_Publication() + xlab("") + ylab("Number of studies") + coord_flip()
 
 ```
 

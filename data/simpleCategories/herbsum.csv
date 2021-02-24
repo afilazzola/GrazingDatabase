@@ -1,0 +1,185 @@
+herbivores,simpleHerbivoreName,n
+13-lined ground squirrel,squirrel,1
+aardvark,aardvark,2
+Addax nasomaculatus,antelopes,1
+Aethomys kaise_,rodents,1
+African buffalo,buffalo,1
+alpine marmot,marmot,3
+American bison,bison,1
+antelope squirrel,squirrel,1
+ants,insects,7
+arthropods,insects,1
+artiodactyla,ungulate,2
+Arvicanthis nilo,rodents,1
+auchenorrhyncha,insects,1
+bank vole,voles,1
+bank voles,voles,1
+barnacle geese,geese,1
+beetles,insects,1
+beisa oryx,oryx,1
+bettles,insects,1
+big horn sheep,bighorn sheep,1
+bighorn sheep,bighorn sheep,4
+bison,bison,6
+black-tailed jackrabbit,lagomorphs,1
+Brandt's voles,voles,1
+brent geese,geese,1
+brown hares,lagomorphs,2
+buffalo,buffalo,5
+Burchell's zebra,zebras,2
+Burchell's zebras,zebras,1
+bush duiker,antelopes,1
+bushbuck,antelopes,1
+camels,camels,1
+cape buffalo,buffalo,1
+cape buffalos,buffalo,1
+cattle,cattle,164
+chamois,chamois,4
+coleoptera,insects,6
+common shrew,shrew,1
+common voles,voles,2
+common zebra,zebras,1
+crested porcupine,porcupine,1
+deer,deer,5
+deer mice,rodents,1
+deer mouse,rodents,1
+diprotodontia,kangaroo,1
+diptera,insects,2
+donkey,donkeys,1
+donkeys,donkeys,2
+eland,antelopes,3
+elands,antelopes,2
+elephant,elephants,5
+elephants,elephants,3
+elk,elk,6
+eulipotyphla,moles,1
+European rabbits,lagomorphs,1
+fallow deer,deer,2
+feral donkeys,donkeys,1
+feral horses,horses,1
+field vole,voles,1
+field voles,voles,5
+giant kangaroo rat,rodents,1
+giraffe,giraffes,4
+giraffes,giraffes,2
+goat,goats,3
+goats,goats,18
+Grant's gazelle,gazelle,2
+Grant's gazelles,gazelle,2
+grasshoppers,insects,2
+Great Basin pocket mouse,rodents,1
+Grevy's zebra,zebras,3
+Grevy's zebras,zebras,1
+grouse,grouse,1
+hare,lagomorphs,4
+hares,lagomorphs,4
+hartebeest,antelopes,1
+hartebeests,antelopes,1
+harvest mice,rodents,1
+heck cattle,cattle,1
+Heermann's kangaroo rat,rodents,1
+hemiptera,insects,4
+hertebeest,antelopes,1
+heteroptera,insects,1
+horse,horses,2
+horses,horses,21
+hymenoptera,insects,4
+ice rats,rodents,1
+impala,impala,5
+invertebrates,insects,3
+Jackson's hartebeests,antelopes,1
+javelina,javelina,1
+kangaroos,kangaroo,6
+konik horses,horses,1
+kudu,antelopes,1
+lagomorph,lagomorphs,1
+lagomorpha,lagomorphs,1
+lagomorphs,lagomorphs,3
+large ungulates,ungulate,1
+leafhoppers,insects,1
+lemming,lemming,1
+lemmings,lemming,2
+lepidoptera,insects,3
+livestock,livestock,2
+livestock?,livestock,1
+marmot,marmot,1
+meadow vole,voles,1
+meadow voles,voles,1
+mega-herbivores,ungulate,1
+midday gerbil,rodents,1
+mollusc,mollusc,1
+Mongolian five-toed jerboa,rodents,1
+moose,moose,6
+mouflon,sheep,1
+moutain hare,lagomorphs,3
+mule deer,deer,8
+mules,mules,1
+muntjac,deer,1
+"Mus
+
+ minutoides",rodents,1
+mustelids,weasels,1
+nortehrn grasshaopper mouse,rodents,1
+northern three-toed jerboa,rodents,1
+nyala,antelopes,1
+Ord's kangaroo rat,rodents,1
+orthoptera,insects,2
+oryx,oryx,4
+Oryx leucoryx,oryx,1
+packet mouse,rodents,1
+perissodactyla,ungulate,2
+pigs,pigs,1
+pinyon mouse,rodents,1
+plains zebra,zebras,1
+zebra,zebras,1
+planthoppers,insects,1
+pocket gopher,gopher,1
+ponies,horses,3
+pouched mouse,rodents,1
+proboscidea,insects,2
+pronghorn,antelopes,5
+rabbits,lagomorphs,10
+rats,rodents,1
+red deer,deer,10
+reindeer,reindeer,12
+reptiles,reptiles,1
+reticulated giraffes,giraffes,1
+rhino,rhinoceroses,1
+rhinoceroses,rhinoceroses,1
+Richardson's ground squirrel,squirrel,1
+rodentia,rodents,8
+rodents,rodents,11
+roe deer,deer,7
+root vole,voles,1
+sage grouse,grouse,1
+scrub hare,lagomorphs,1
+sheep,sheep,83
+short-nosed kangaroo rat,rodents,1
+shrews,shrews,1
+sibling voles,voles,1
+small mammals,rodents,1
+snow hare,lagomorphs,1
+soil macrofauna,soil macrofauna,1
+spanish ibex,antelopes,1
+steenbok,antelopes,1
+steinbuck,antelopes,2
+steinbucks,antelopes,1
+Struthio camelus,camels,1
+tule elk,elk,1
+ungulates,ungulate,1
+voles,voles,7
+wallabies,wallabies,1
+warthog,boar,2
+warthogs,boar,1
+waterbuck,antelopes,1
+western grey kangaroos,kangaroo,1
+white-tailed antelope squirrel,squirrel,1
+white-tailed deer,deer,2
+white-toothed shrews,shrews,1
+white rhino,rhinoceroses,1
+wild boar,boar,2
+wildebeest,antelopes,1
+wood mice,rodents,3
+yaks,yaks,1
+zebra,zebras,1
+zebras,zebras,1
