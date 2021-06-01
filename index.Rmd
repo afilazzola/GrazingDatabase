@@ -56,7 +56,7 @@ mp <- NULL
 mapWorld <- borders("world", colour="white", fill="gray75") # create a layer of borders
 mp <- ggplot() + theme_classic()+  mapWorld + xlim(-180,180)
 
-mp <- mp+ geom_point(data=gpsSplit %>%  filter(Grazer.status != "") , aes(x=Longitude, y=Latitude, color=Grazer.status), size=2, pch=19) + scale_color_manual(values=c("#D55E00", "#E69F00", "#56B4E9","grey50")) + ylab("Latitude") + xlab("Longitude") 
+mp <- mp+ geom_point(data=gpsSplit %>%  filter(Grazer.status != "") , aes(x=Longitude, y=Latitude, fill=Grazer.status), size=3, pch=21) + scale_fill_manual(values=c("#D55E00", "#009E73", "#56B4E9","grey50")) + ylab("Latitude") + xlab("Longitude") 
 mp
 
 ```
@@ -66,9 +66,9 @@ mp
 ```{r warning=FALSE, message=FALSE}
 ## Replicates
 names(studyData)
-plot1 <- ggplot(studyData, aes(x = as.numeric(N.sites))) + geom_density(fill="Grey50") + theme_Publication() + xlab("Number of sites") + ylab("Frequency of studies") + scale_x_continuous(trans =  "log2")
+plot1 <- ggplot(studyData, aes(x = as.numeric(N.sites))) + geom_histogram(fill="Grey50", bins=10) + theme_Publication() + xlab("Number of sites") + ylab("Frequency of studies") + scale_x_continuous(trans =  "log2")
 
-plot2 <- ggplot(studyData, aes(x = as.numeric(Study.duration))) + geom_density(fill="Grey50") + theme_Publication() + xlab("Duration of study in years") + ylab("Frequency of studies")+ scale_x_continuous(trans =  "log2")
+plot2 <- ggplot(studyData, aes(x = as.numeric(Study.duration))) + geom_histogram(fill="Grey50",bins=10) + theme_Publication() + xlab("Duration of study in years") + ylab("Frequency of studies")+ scale_x_continuous(trans =  "log2")
 
 gridExtra::grid.arrange(plot1, plot2, ncol=2)
 
