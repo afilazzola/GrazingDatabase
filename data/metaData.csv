@@ -17,7 +17,7 @@ studyData,N sites,the number of sites that were surveyed within the study
 studyData,Survey technique,The survey method for collecting the responding animals
 studyData,Wild grazer species,was there indeginous grazers present in the study area (yes or no)
 studyData,Domestic grazer species,was there domestic grazers present in the study area (yes or no)
-studyData,Plant community,The status of the plant community as either: 1) P = planted/seeded or 2) SA = allowed to self assemble
+studyData,Plant community origin,The status of the plant community as either: 1) P = planted/seeded or 2) SA = allowed to self assemble
 studyData,Ecosystem class,"The type of ecosystem where the experiment was conducted (e.g. forest, desert, alpine). Multiple locations are separated by a semi-colon"
 studyData,Fenced,Whether the larger study area (excluding exclosures) was open or fenced
 studyData,Tilled,If the study area tilled or not tilled
