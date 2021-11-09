@@ -90,14 +90,22 @@ gridExtra::grid.arrange(plot1, plot2, ncol=2)
 ```{r warning=FALSE, message=FALSE}
 ## Split by semi-colon
 unnestVeg <- studyData %>%   unnest(Ecosystem.class = strsplit(Ecosystem.class, ";"))
+
+
 ## Summarize by each class
-VegClass <- unnestVeg %>% group_by(Ecosystem.class) %>% summarize(n=length(Ecosystem.class)) %>% filter(!is.na(Ecosystem.class))
+VegClass <- unnestVeg %>% group_by(Ecosystem.class, Plant.community) %>% summarize(n=length(Ecosystem.class)) %>% filter(!is.na(Ecosystem.class)) %>% 
+  ungroup() %>% 
+  mutate(Plant.community = ifelse(Ecosystem.class != "grassland", "all", Plant.community))
 
 
 ## Capitalize the names of each
 VegClass[,"capitalVegClass"] <- str_to_title(VegClass$Ecosystem.class)
 
-ggplot(VegClass, aes(x=capitalVegClass, y=n)) + geom_bar(stat="identity") + theme_Publication() + xlab("") + ylab("Number of studies") + coord_flip()
+ggplot(VegClass, aes(x=capitalVegClass, y=n, fill=Plant.community)) + geom_bar(stat="identity") + theme_Publication() + xlab("") + ylab("Number of studies") + coord_flip() +
+  scale_fill_manual(RColorBrewer::brewer.pal(6, "Accent"))
+  
+  
+RColorBrewer::brewer.pal(6, "Accent")
 
 ```
 
