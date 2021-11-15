@@ -4,7 +4,7 @@ studyData,Title,The title of the study the data was extracted from.
 studyData,Authors,The authors of the study the data was extracted from.
 studyData,Source title,The title of the source the study was published in (eg. journal name).
 studyData,Publication year,The year was the study published.
-studyData,Grazer species,the main domestic grazer species studied in the publication.
+studyData,Grazer species,the main domesticated grazer species studied in the publication.
 studyData,Grazer status,"What was the domestication status of the grazer species identified (domesticatedd, wild, or both)."
 studyData,Contrast,"what kind of comparison was studied (gradient, grazed, ungrazed, etc.)."
 studyData,Last grazing event,How many years had passed before the study was performed since the landscape had been grazed.
@@ -16,7 +16,7 @@ studyData,Country,The  country were the study was performed
 studyData,N sites,the number of sites that were surveyed within the study
 studyData,Survey technique,The survey method for collecting the responding animals
 studyData,Wild grazer species,was there indeginous grazers present in the study area (yes or no)
-studyData,Domestic grazer species,was there domestic grazers present in the study area (yes or no)
+studyData,Domesticated grazer species,were there domesticated grazers present in the study area (yes or no)
 studyData,Plant community origin,The status of the plant community as either: 1) P = planted/seeded or 2) SA = allowed to self assemble
 studyData,Ecosystem class,"The type of ecosystem where the experiment was conducted (e.g. forest, desert, alpine). Multiple locations are separated by a semi-colon"
 studyData,Fenced,Whether the larger study area (excluding exclosures) was open or fenced

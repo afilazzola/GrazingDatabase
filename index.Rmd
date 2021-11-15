@@ -102,10 +102,9 @@ VegClass <- unnestVeg %>% group_by(Ecosystem.class, Plant.community) %>% summari
 VegClass[,"capitalVegClass"] <- str_to_title(VegClass$Ecosystem.class)
 
 ggplot(VegClass, aes(x=capitalVegClass, y=n, fill=Plant.community)) + geom_bar(stat="identity") + theme_Publication() + xlab("") + ylab("Number of studies") + coord_flip() +
-  scale_fill_manual(RColorBrewer::brewer.pal(6, "Accent"))
+  scale_fill_manual(values=RColorBrewer::brewer.pal(5, "Dark2"))
   
   
-RColorBrewer::brewer.pal(6, "Accent")
 
 ```
 
