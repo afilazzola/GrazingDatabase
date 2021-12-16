@@ -2,22 +2,22 @@ Datasheet,Column Titles,Explaination
 studyData,UniqueID,"A unique identifier given to each study, is the same across datasheets."
 studyData,Title,The title of the study the data was extracted from.
 studyData,Authors,The authors of the study the data was extracted from.
-studyData,Source title,The title of the source the study was published in (eg. journal name).
-studyData,Publication year,The year was the study published.
-studyData,Grazer species,the main domesticated grazer species studied in the publication.
-studyData,Grazer status,"What was the domestication status of the grazer species identified (domesticatedd, wild, or both)."
+studyData,SourceTitle,The title of the source the study was published in (eg. journal name).
+studyData,PublicationYear,The year was the study published.
+studyData,GrazerSpecies,the main domesticated grazer species studied in the publication.
+studyData,GrazerStatus,"What was the domestication status of the grazer species identified (domesticatedd, wild, or both)."
 studyData,Contrast,"what kind of comparison was studied (gradient, grazed, ungrazed, etc.)."
-studyData,Last grazing event,How many years had passed before the study was performed since the landscape had been grazed.
-studyData,Study duration,The duration of the study performed in years.
+studyData,LastGrazingEvent,How many years had passed before the study was performed since the landscape had been grazed.
+studyData,StudyDuration,The duration of the study performed in years.
 studyData,Latitude,Latitude of the site or centroid if multiple sites in decimal degrees.  Multiple sites are separated by a semi-colon.
 studyData,Longitude,Longitude of the site or centroid if multiple sites in decimal degrees.  Multiple sites are separated by a semi-colon.
 studyData,Elevation,"the elevation of the site, or average elevation across multiple sites, in meters. Multiple sites are separated by a semi-colon."
 studyData,Country,The  country were the study was performed
-studyData,N sites,the number of sites that were surveyed within the study
-studyData,Survey technique,The survey method for collecting the responding animals
-studyData,Wild grazer species,was there indeginous grazers present in the study area (yes or no)
-studyData,Domesticated grazer species,were there domesticated grazers present in the study area (yes or no)
-studyData,Plant community origin,The status of the plant community as either: 1) P = planted/seeded or 2) SA = allowed to self assemble
+studyData,NSites,the number of sites that were surveyed within the study
+studyData,SurveyTechnique,The survey method for collecting the responding animals
+studyData,WildGrazerSpecies,was there indeginous grazers present in the study area (yes or no)
+studyData,DomesticatedGrazerSpecies,were there domesticated grazers present in the study area (yes or no)
+studyData,PlantCommunity,The status of the plant community as either: 1) P = planted/seeded or 2) SA = allowed to self assemble
 studyData,Ecosystem class,"The type of ecosystem where the experiment was conducted (e.g. forest, desert, alpine). Multiple locations are separated by a semi-colon"
 studyData,Fenced,Whether the larger study area (excluding exclosures) was open or fenced
 studyData,Tilled,If the study area tilled or not tilled
@@ -25,22 +25,25 @@ studyData,Herbivores,"a list of all the herbivores present in the study area men
 studyData,Fertilization,If fertilizer used within the study sites (yes or no)
 studyData,Fire,"If fire (for example, perscribed burns) a significant part of the study"
 studyData,Ownership,Was the study area publicly or privately owned
-studyData,Year initiated,The year that the study initiated
-studyData,Year finished,The year that the study ended
+studyData,YearInitiated,The year that the study initiated
+studyData,YearFinished,The year that the study ended
 grazingData,UniqueID,"a unique identifier given to each study, is the same across datasheets"
-grazingData,Higher taxa,Whether the responding specimen was a vertebrate or invertebrate
-grazingData,Taxa,"Taxonomic phylum of measured specimen. Plants, lichen, and fungi were described at the Kingdom taxonomic rank"
-grazingData,Detailed taxa,An arbitrary grouping by taxonomic rank to better identify similar species. Often completed to the family level
+grazingData,HigherTaxon,Whether the responding specimen was a vertebrate or invertebrate
+grazingData,Kingdom,"The taxonomic rank within kingdom for the target species or group of species within the study. When species name was provided, the taxonomy was queried from the global biodiversity information facility (GBIF.org)"
+grazingData,Phylum,"The taxonomic rank within phylum for the target species or group of species within the study. When species name was provided, the taxonomy was queried from the global biodiversity information facility (GBIF.org)"
+grazingData,Class,"The taxonomic rank within class for the target species or group of species within the study. When species name was provided, the taxonomy was queried from the global biodiversity information facility (GBIF.org)"
+grazingData,Order,"The taxonomic rank within order for the target species or group of species within the study. When species name was provided, the taxonomy was queried from the global biodiversity information facility (GBIF.org)"
+grazingData,Family,"The taxonomic rank within family for the target species or group of species within the study. When species name was provided, the taxonomy was queried from the global biodiversity information facility (GBIF.org)"
 grazingData,Genus,Taxonomic genus of measured specimen
 grazingData,Species,Species of measured specimen
 grazingData,Estimate,"The response variable that measured the study species (e.g. abundance, diversity, behavioural, fitness) "
 grazingData,SiteID,ID given within the paper for a specific site studied
 grazingData,Year,what year was the site studied
 grazingData,Replicate,number of replicates of the site treatments in the study
-grazingData,Grazing comparison,Determination of the grazing contrast was based on a gradient of intensity (e.g. stocking rate) or a contrast between ordinal groups such as grazed vs. ungrazed. 
-grazingData,Grazing level,Grazing categories or comparisons for ordinal contrasts. Only applicable for the ordinal/binary compare
-grazingData,Years grazed,how many years had the landscape been grazed when the study was performed
-grazingData,Grazing estimate,what estimate of grazing was used in the study
-grazingData,Grazing value,"for the specified site, what was the value of the grazing estimate determined"
+grazingData,GrazingComparison,Determination of the grazing contrast was based on a gradient of intensity (e.g. stocking rate) or a contrast between ordinal groups such as grazed vs. ungrazed. 
+grazingData,GrazingLevel,Grazing categories or comparisons for ordinal contrasts. Only applicable for the ordinal/binary compare
+grazingData,YearsGrazed,how many years had the landscape been grazed when the study was performed
+grazingData,GrazingEstimate,what estimate of grazing was used in the study
+grazingData,GrazingValue,"for the specified site, what was the value of the grazing estimate determined"
 grazingData,Statistic,"The statistic used to summarize the response of the speciman (e.g. mean, median, standard error).  If listed as ""count"" this represents the plot-level measurement of individuals"
 grazingData,Value,The measured value of the responding specimen

@@ -1,4 +1,4 @@
-uniqueID,HigherTaxon,kingdom,phylum,class,order,family,genus,species,siteID,year,Timeframe,grazing.compare,grazing.level,grazing.estimate,grazing.value,Estimate,replicate,Stat,Value
+UniqueID,HigherTaxon,Kingdom,Phylum,Class,Order,Family,Genus,Species,SiteID,Year,Timeframe,GrazingCompare,GrazingLevel,GrazingEstimate,GrazingValue,Estimate,Replicate,Statistic,Value
 46,Vertebrate,Animalia,Chordata,Aves,Passeriformes,Passerellidae,Aimophila,cassinii,1,1982,,ordinal/binary,grazed,cattle per ha,1,abundance,2,count,0
 46,Vertebrate,Animalia,Chordata,Aves,Passeriformes,Passerellidae,Aimophila,cassinii,1,1982,,ordinal/binary,ungrazed,cattle per ha,0,abundance,2,count,66
 46,Vertebrate,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Ammodramus,savannarum,1,1982,,ordinal/binary,grazed,cattle per ha,1,abundance,2,count,0
